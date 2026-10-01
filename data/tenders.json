@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T22:22:11.692Z",
+  "generatedAt": "2026-10-01T06:06:54.852Z",
   "watch": {
     "_comment": "CPV codes to watch. Edit this list and push — no code changes needed. checkDigit is required for the KIMDIS source (empirically confirmed against the live API, since the EU's own published check-digit formula is known-broken); TED doesn't need it. Full CPV list: https://simap.ted.europa.eu/web/simap/cpv",
     "_noiseNote": "72000000 and 72224000 are the two biggest sources of irrelevant hits (hardware procurement, audits, construction, generic consulting frameworks riding along as a minor tag on a big multi-code notice) - kept anyway because removing them loses far more true positives than false ones. 72224000 specifically is project-management/advisory work, not coding - drop it if you only want build work.",
@@ -73,231 +73,8 @@
       }
     ]
   },
-  "count": 199,
+  "count": 188,
   "notices": [
-    {
-      "id": "TED-607682-2026",
-      "source": "TED",
-      "title": "Greece – Software package and information systems – Δράσεις για τον ψηφιακό μετασχηματισμό του Δήμου Φαιστού",
-      "buyer": "ΔΗΜΟΣ ΦΑΙΣΤΟΥ",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "48000000",
-        "35125100",
-        "32420000",
-        "34990000",
-        "72000000",
-        "48600000",
-        "30237475",
-        "32344210",
-        "32423000",
-        "32440000",
-        "48210000",
-        "34998000",
-        "48420000"
-      ],
-      "value": 371554,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-03",
-      "url": "https://ted.europa.eu/en/notice/-/detail/607682-2026"
-    },
-    {
-      "id": "KIMDIS-26PROC019878990",
-      "source": "KIMDIS",
-      "title": "Απόφαση παράτασης της προθεσμίας υποβολής προσφορών για την «Προμήθεια, εγκατάσταση, λειτουργία και ",
-      "buyer": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "64200000-8",
-        "50324100-3",
-        "66519000-1",
-        "79341000-6",
-        "80533100-0",
-        "72000000-5",
-        "51611100-9",
-        "38651600-9"
-      ],
-      "value": 44055805,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-29",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019878990",
-      "relatedActs": [
-        {
-          "code": "26REQ019165723",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019165723"
-        }
-      ]
-    },
-    {
-      "id": "KIMDIS-26PROC019841881",
-      "source": "KIMDIS",
-      "title": "ΠΡΟΣΚΛΗΣΗ ΥΠΟΒΟΛΗΣ ΠΡΟΣΦΟΡΑΣ ΣΥΝΤΗΡΗΣΗΣ ΓΕΩΓΡΑΦΙΚΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΔΗΜΟΥ ΚΟΖΑΝΗΣ",
-      "buyer": "ΔΗΜΟΣ ΚΟΖΑΝΗΣ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "38221000-0",
-        "72000000-5"
-      ],
-      "value": 36580,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-23",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019841881",
-      "relatedActs": [
-        {
-          "code": "26REQ019838319",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019838319"
-        }
-      ]
-    },
-    {
-      "id": "KIMDIS-26PROC019829207",
-      "source": "KIMDIS",
-      "title": "Τεχνική υποστήριξη-συντήρηση εφαρμογών λογισμικού.",
-      "buyer": "ΔΗΜΟΣ ΑΜΦΙΠΟΛΗΣ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "72000000-5"
-      ],
-      "value": 26248.32,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-22",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019829207",
-      "relatedActs": [
-        {
-          "code": "26REQ019826254",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019826254"
-        }
-      ]
-    },
-    {
-      "id": "KIMDIS-26PROC019778746",
-      "source": "KIMDIS",
-      "title": " ΑΠΟΦΑΣΗ ΡΑΑΕΥ ΥΠ’ ΑΡΙΘΜ. 485/2026",
-      "buyer": "ΡΥΘΜΙΣΤΙΚΗ ΑΡΧΗ ΑΠΟΒΛΗΤΩΝ ΕΝΕΡΓΕΙΑΣ ΚΑΙ ΥΔΑΤΩΝ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "72000000-5"
-      ],
-      "value": 2661290.5,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-14",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019778746",
-      "relatedActs": []
-    },
-    {
-      "id": "KIMDIS-26PROC019842241",
-      "source": "KIMDIS",
-      "title": "Συντήρηση και τεχνική υποστήριξη εφαρμογής Διαχείρισης Ωδείου",
-      "buyer": "ΔΗΜΟΣ ΓΛΥΦΑΔΑΣ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "72261000-2"
-      ],
-      "value": 3150,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-23",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019842241",
-      "relatedActs": [
-        {
-          "code": "26REQ019836850",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019836850"
-        }
-      ]
-    },
-    {
-      "id": "KIMDIS-26PROC019834481",
-      "source": "KIMDIS",
-      "title": "ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΕΚΚΑΘΑΡΙΣΗΣ ΕΠΙΚΑΙΡΟΠΟΙΗΣΗΣ ΚΑΙ ΤΑΚΤΟΠΟΙΗΣΗΣ ΜΗΤΡΩΟΥ ΣΥΝΑΛΛΑΣΟΜΕΝΩΝ ΤΟΥ ΔΗΜΟΥ Ι.Π.Μ",
-      "buyer": "ΔΗΜΟΣ ΙΕΡΑΣ ΠΟΛΗΣ ΜΕΣΟΛΟΓΓΙΟΥ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "72261000-2"
-      ],
-      "value": 24800,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-23",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019834481",
-      "relatedActs": [
-        {
-          "code": "26REQ019830004",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019830004"
-        }
-      ]
-    },
-    {
-      "id": "KIMDIS-26PROC019751996",
-      "source": "KIMDIS",
-      "title": "Διακήρυξη Ανοικτού Διαγωνισμού Μελετών κάτω των ορίων με απονομή βραβείων και δικαίωμα ανάθεσης για ",
-      "buyer": "ΕΘΝΙΚΟ ΔΙΚΤΥΟ ΥΠΟΔΟΜΩΝ ΤΕΧΝΟΛΟΓΙΑΣ ΚΑΙ ΕΡΕΥΝΑΣ ΑΕ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "18530000-3",
-        "72000000-5",
-        "72262000-9",
-        "72250000-2",
-        "48000000-8"
-      ],
-      "value": 117800,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-09",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019751996",
-      "relatedActs": [
-        {
-          "code": "26REQ019738443",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019738443"
-        }
-      ]
-    },
-    {
-      "id": "KIMDIS-26PROC019865752",
-      "source": "KIMDIS",
-      "title": "ΠΡΟΣΚΛ ΥΠΟΒ ΠΡΟΣΦ  ΓΙΑ  ΥΠΗΡ  ΕΠΙΣΚ  Κ  ΣΥΝΤΗΡ ΛΟΓΙΣΜΙΚΟΥ",
-      "buyer": "ΠΕΡ.ΓΕΝ. ΝΟΣΟΚΟΜΕΙΟ 'ΑΣΚΛΗΠΙΕΙΟ' ΒΟΥΛΑΣ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "72267000-4"
-      ],
-      "value": 30682.56,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-28",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019865752",
-      "relatedActs": [
-        {
-          "code": "26REQ019864768",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019864768"
-        }
-      ]
-    },
-    {
-      "id": "KIMDIS-26PROC019815930",
-      "source": "KIMDIS",
-      "title": "ΠΡΟΣΚΛΗΣΗ ΔΙΑΔΙΚ ΔΙΑΠΡΑΓΜ ΔΙΑΓΩΝ ΥΠΗΡ ΕΠΙΣΚ Κ ΣΥΝΤΗΡ ΛΟΓΙΣΜΙΚΟΥ",
-      "buyer": "ΠΕΡ.ΓΕΝ. ΝΟΣΟΚΟΜΕΙΟ 'ΑΣΚΛΗΠΙΕΙΟ' ΒΟΥΛΑΣ",
-      "buyerCountry": "GR",
-      "cpv": [
-        "72267000-4"
-      ],
-      "value": 136400,
-      "currency": "EUR",
-      "deadline": "2026-09-30",
-      "publicationDate": "2026-09-18",
-      "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019815930",
-      "relatedActs": [
-        {
-          "code": "26REQ019815779",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019815779"
-        }
-      ]
-    },
     {
       "id": "KIMDIS-26PROC019855185",
       "source": "KIMDIS",
@@ -342,10 +119,10 @@
       "buyer": "ΔΗΜΟΣ ΔΥΤΙΚΗΣ ΛΕΣΒΟΥ",
       "buyerCountry": "GR",
       "cpv": [
-        "72412000-1",
         "72415000-2",
         "72261000-2",
-        "72514000-1"
+        "72514000-1",
+        "72412000-1"
       ],
       "value": 6499,
       "currency": "EUR",
@@ -450,13 +227,13 @@
       "buyer": "ΔΗΜΟΣ ΜΕΤΕΩΡΩΝ",
       "buyerCountry": "GR",
       "cpv": [
-        "48422000-2",
         "72212000-4",
-        "32441200-8",
-        "34998000-9",
-        "35125100-7",
+        "48422000-2",
         "34926000-4",
-        "32420000-3"
+        "32441200-8",
+        "32420000-3",
+        "34998000-9",
+        "35125100-7"
       ],
       "value": 528023,
       "currency": "EUR",
@@ -477,13 +254,13 @@
       "buyer": "ΔΗΜΟΣ ΜΕΤΕΩΡΩΝ",
       "buyerCountry": "GR",
       "cpv": [
-        "34998000-9",
-        "32420000-3",
-        "72212000-4",
         "35125100-7",
-        "48422000-2",
+        "34998000-9",
         "34926000-4",
-        "32441200-8"
+        "32441200-8",
+        "72212000-4",
+        "32420000-3",
+        "48422000-2"
       ],
       "value": 528023,
       "currency": "EUR",
@@ -741,8 +518,8 @@
       "buyer": "ΟΡΓΑΝΙΣΜΟΣ ΛΙΜΕΝΟΣ  ΛΑΥΡΙΟΥ Α.Ε",
       "buyerCountry": "GR",
       "cpv": [
-        "72000000-5",
-        "72225000-8"
+        "72225000-8",
+        "72000000-5"
       ],
       "value": 35340,
       "currency": "EUR",
@@ -784,9 +561,9 @@
       "buyer": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ ΑΕ",
       "buyerCountry": "GR",
       "cpv": [
-        "72000000-5",
+        "48000000-8",
         "80533100-0",
-        "48000000-8"
+        "72000000-5"
       ],
       "value": 4860800,
       "currency": "EUR",
@@ -807,9 +584,9 @@
       "buyer": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ ΑΕ",
       "buyerCountry": "GR",
       "cpv": [
-        "72000000-5",
+        "80533100-0",
         "48000000-8",
-        "80533100-0"
+        "72000000-5"
       ],
       "value": 4860800,
       "currency": "EUR",
@@ -1187,12 +964,12 @@
       "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26PROC019834478",
       "relatedActs": [
         {
-          "code": "26REQ019822064",
-          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019822064"
-        },
-        {
           "code": "26REQ019827799",
           "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019827799"
+        },
+        {
+          "code": "26REQ019822064",
+          "url": "https://cerpp.eprocurement.gov.gr/upgkimdis/unprotected/home.xhtml?referenceNumber=26REQ019822064"
         }
       ]
     },
@@ -1224,9 +1001,9 @@
       "buyer": "ΔΗΜΟΣ ΚΥΜΗΣ - ΑΛΙΒΕΡΙΟΥ",
       "buyerCountry": "GR",
       "cpv": [
+        "72261000-2",
         "72268000-1",
-        "72267100-0",
-        "72261000-2"
+        "72267100-0"
       ],
       "value": 24800,
       "currency": "EUR",
@@ -1325,34 +1102,15 @@
       ]
     },
     {
-      "id": "TED-599720-2026",
-      "source": "TED",
-      "title": "Greece – Advertising consultancy services – Δράσεις ενημέρωσης – ευαισθητοποίησης Β’ ΦΑΣΗ",
-      "buyer": "ΕΠΙΤΕΛΙΚΗ ΔΟΜΗ ΕΣΠΑ ΥΚΟΙΣΟ",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "79341100",
-        "79341000",
-        "72400000",
-        "79952000",
-        "79411000"
-      ],
-      "value": 1149677.42,
-      "currency": "EUR",
-      "deadline": "2026-10-10",
-      "publicationDate": "2026-08-31",
-      "url": "https://ted.europa.eu/en/notice/-/detail/599720-2026"
-    },
-    {
       "id": "KIMDIS-26PROC019833830",
       "source": "KIMDIS",
       "title": "Παράταση της καταληκτικής ημερομηνίας υποβολής προσφορών για τη Διακήρυξη αρ.1/2026 (486071)",
       "buyer": "ΥΠΟΥΡΓΕΙΟ ΠΟΛΙΤΙΣΜΟΥ",
       "buyerCountry": "GR",
       "cpv": [
+        "30210000-4",
         "72200000-7",
-        "32320000-2",
-        "30210000-4"
+        "32320000-2"
       ],
       "value": 136400,
       "currency": "EUR",
@@ -1455,8 +1213,8 @@
       "buyer": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "72000000-5",
-        "34962210-3"
+        "34962210-3",
+        "72000000-5"
       ],
       "value": 976237.78,
       "currency": "EUR",
@@ -1493,11 +1251,11 @@
       "buyer": "ΠΕΡΙΦΕΡΕΙΑ ΘΕΣΣΑΛΙΑΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "79341100-7",
-        "80000000-4",
         "79415200-8",
         "72000000-5",
-        "79952000-2"
+        "79952000-2",
+        "79341100-7",
+        "80000000-4"
       ],
       "value": 2739120,
       "currency": "EUR",
@@ -1518,10 +1276,10 @@
       "buyer": "ΠΕΡΙΦΕΡΕΙΑ ΘΕΣΣΑΛΙΑΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "79952000-2",
         "72000000-5",
-        "80000000-4",
         "79415200-8",
+        "80000000-4",
+        "79952000-2",
         "79341100-7"
       ],
       "value": 2739120,
@@ -1543,15 +1301,15 @@
       "buyer": "ΠΕΡΙΦΕΡΕΙΑ ΗΠΕΙΡΟΥ",
       "buyerCountry": "GR",
       "cpv": [
-        "73110000-6",
         "38221000-0",
-        "79952000-2",
-        "32321300-2",
-        "79411100-9",
-        "72322000-8",
-        "79810000-5",
-        "72316000-3",
         "79822500-7",
+        "32321300-2",
+        "79810000-5",
+        "72322000-8",
+        "72316000-3",
+        "79411100-9",
+        "79952000-2",
+        "73110000-6",
         "79340000-9"
       ],
       "value": 209440.01,
@@ -1648,11 +1406,11 @@
       "buyer": "ΥΠΟΥΡΓΕΙΟ  ΜΕΤΑΝΑΣΤΕΥΣΗΣ ΚΑΙ ΑΣΥΛΟΥ",
       "buyerCountry": "GR",
       "cpv": [
-        "48000000-8",
-        "72262000-9",
-        "72000000-5",
         "72221000-0",
-        "72212730-5"
+        "48000000-8",
+        "72000000-5",
+        "72212730-5",
+        "72262000-9"
       ],
       "value": 7440000,
       "currency": "EUR",
@@ -1674,8 +1432,8 @@
       "buyerCountry": "GR",
       "cpv": [
         "72000000-5",
-        "72262000-9",
         "72212730-5",
+        "72262000-9",
         "48000000-8"
       ],
       "value": 7440000,
@@ -1795,14 +1553,14 @@
       "buyer": "ΑΝΕΞΑΡΤΗΤΟΣ ΔΙΑΧΕΙΡΙΣΤΗΣ ΜΕΤΑΦΟΡΑΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΑΔΜΗΕ ΑΕ",
       "buyerCountry": "GR",
       "cpv": [
-        "72224000-1",
-        "72500000-0",
-        "72212482-1",
-        "48000000-8",
-        "72212300-2",
         "72267100-0",
+        "72224000-1",
         "72253200-5",
-        "72212451-5"
+        "72212451-5",
+        "72212300-2",
+        "72500000-0",
+        "48000000-8",
+        "72212482-1"
       ],
       "value": 10515200,
       "currency": "EUR",
@@ -1823,14 +1581,14 @@
       "buyer": "ΑΝΕΞΑΡΤΗΤΟΣ ΔΙΑΧΕΙΡΙΣΤΗΣ ΜΕΤΑΦΟΡΑΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΑΔΜΗΕ ΑΕ",
       "buyerCountry": "GR",
       "cpv": [
-        "72224000-1",
-        "72212451-5",
         "48000000-8",
-        "72212482-1",
-        "72212300-2",
-        "72267100-0",
         "72500000-0",
-        "72253200-5"
+        "72212482-1",
+        "72253200-5",
+        "72212300-2",
+        "72212451-5",
+        "72224000-1",
+        "72267100-0"
       ],
       "value": 10515200,
       "currency": "EUR",
@@ -1851,12 +1609,12 @@
       "buyer": "ΑΝΕΞΑΡΤΗΤΟΣ ΔΙΑΧΕΙΡΙΣΤΗΣ ΜΕΤΑΦΟΡΑΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΑΔΜΗΕ ΑΕ",
       "buyerCountry": "GR",
       "cpv": [
-        "72267100-0",
-        "79400000-8",
-        "72262000-9",
         "79111000-5",
-        "72246000-1",
-        "72512000-7"
+        "72262000-9",
+        "72512000-7",
+        "79400000-8",
+        "72267100-0",
+        "72246000-1"
       ],
       "value": 1736000,
       "currency": "EUR",
@@ -1877,24 +1635,24 @@
       "buyer": "ΔΗΜΟΣ ΖΗΡΟΥ",
       "buyerCountry": "GR",
       "cpv": [
-        "72212333-2",
-        "32270000-6",
-        "32441100-7",
-        "32344210-1",
         "32260000-3",
-        "32441200-8",
-        "48211000-0",
-        "72262000-9",
+        "30236200-4",
         "30237475-9",
-        "31710000-6",
+        "72262000-9",
+        "32344210-1",
         "72212211-1",
         "72212000-4",
-        "72267000-4",
-        "38821000-6",
         "48781000-6",
         "72263000-6",
+        "31710000-6",
+        "72212333-2",
         "72268000-1",
-        "30236200-4"
+        "72267000-4",
+        "48211000-0",
+        "38821000-6",
+        "32441200-8",
+        "32441100-7",
+        "32270000-6"
       ],
       "value": 370135.72,
       "currency": "EUR",
@@ -1915,16 +1673,16 @@
       "buyer": "ΠΕΡΙΦΕΡΕΙΑ ΗΠΕΙΡΟΥ",
       "buyerCountry": "GR",
       "cpv": [
-        "03144000-2",
-        "72224000-1",
+        "44211500-7",
         "79342200-5",
-        "71351700-0",
+        "72316000-3",
         "33696300-8",
         "71900000-7",
-        "44211500-7",
-        "79950000-8",
         "79410000-1",
-        "72316000-3"
+        "72224000-1",
+        "71351700-0",
+        "03144000-2",
+        "79950000-8"
       ],
       "value": 250000,
       "currency": "EUR",
@@ -1945,15 +1703,15 @@
       "buyer": "ΠΕΡΙΦΕΡΕΙΑ ΗΠΕΙΡΟΥ",
       "buyerCountry": "GR",
       "cpv": [
-        "72316000-3",
-        "03144000-2",
-        "33696300-8",
         "79342200-5",
-        "71900000-7",
-        "72224000-1",
-        "79950000-8",
         "79410000-1",
+        "72224000-1",
+        "03144000-2",
+        "72316000-3",
+        "79950000-8",
+        "71900000-7",
         "44211500-7",
+        "33696300-8",
         "71351700-0"
       ],
       "value": 250000,
@@ -1993,13 +1751,13 @@
       "buyer": "ΔΗΜΟΣ ΦΥΛΗΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "72212190-7",
-        "72224000-1",
         "72267000-4",
+        "72212190-7",
         "79412000-5",
+        "72224000-1",
+        "80400000-8",
         "71356200-0",
-        "72261000-2",
-        "80400000-8"
+        "72261000-2"
       ],
       "value": 369520,
       "currency": "EUR",
@@ -2020,13 +1778,13 @@
       "buyer": "ΔΗΜΟΣ ΦΥΛΗΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "72212190-7",
-        "71356200-0",
-        "72261000-2",
         "72224000-1",
+        "71356200-0",
         "72267000-4",
+        "80400000-8",
         "79412000-5",
-        "80400000-8"
+        "72261000-2",
+        "72212190-7"
       ],
       "value": 369520,
       "currency": "EUR",
@@ -2047,9 +1805,9 @@
       "buyer": "ΔΗΜΟΣ ΛΕΒΑΔΕΩΝ",
       "buyerCountry": "GR",
       "cpv": [
-        "72200000-7",
-        "48000000-8",
         "35125100-7",
+        "48000000-8",
+        "72200000-7",
         "32441200-8"
       ],
       "value": 693408,
@@ -2071,10 +1829,10 @@
       "buyer": "ΔΗΜΟΣ ΛΕΒΑΔΕΩΝ",
       "buyerCountry": "GR",
       "cpv": [
-        "32441200-8",
         "35125100-7",
         "72200000-7",
-        "48000000-8"
+        "48000000-8",
+        "32441200-8"
       ],
       "value": 693408,
       "currency": "EUR",
@@ -2097,9 +1855,9 @@
       "cpv": [
         "72261000-2",
         "30200000-1",
-        "32342200-4",
         "32420000-3",
-        "48822000-6"
+        "48822000-6",
+        "32342200-4"
       ],
       "value": 1884998.4,
       "currency": "EUR",
@@ -2120,11 +1878,11 @@
       "buyer": "ΙΝΣΤΙΤΟΥΤΟ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ ΚΑΙ ΕΚΔΟΣΕΩΝ «ΔΙΟΦΑΝΤΟΣ»",
       "buyerCountry": "GR",
       "cpv": [
-        "48822000-6",
-        "32342200-4",
-        "32420000-3",
+        "30200000-1",
         "72261000-2",
-        "30200000-1"
+        "32342200-4",
+        "48822000-6",
+        "32420000-3"
       ],
       "value": 1884998.4,
       "currency": "EUR",
@@ -2145,15 +1903,15 @@
       "buyer": "ΔΗΜΟΣ ΝΑΥΠΛΙΕΩΝ",
       "buyerCountry": "GR",
       "cpv": [
-        "48000000-8",
-        "51612000-5",
+        "72268000-1",
         "51110000-6",
-        "31518000-0",
+        "35125100-7",
         "32420000-3",
+        "31518000-0",
         "80533100-0",
         "71356300-1",
-        "35125100-7",
-        "72268000-1"
+        "48000000-8",
+        "51612000-5"
       ],
       "value": 805904.52,
       "currency": "EUR",
@@ -2174,15 +1932,15 @@
       "buyer": "ΔΗΜΟΣ ΝΑΥΠΛΙΕΩΝ",
       "buyerCountry": "GR",
       "cpv": [
-        "32420000-3",
         "51612000-5",
-        "51110000-6",
-        "31518000-0",
-        "72268000-1",
         "48000000-8",
-        "71356300-1",
+        "32420000-3",
+        "35125100-7",
+        "31518000-0",
+        "51110000-6",
+        "72268000-1",
         "80533100-0",
-        "35125100-7"
+        "71356300-1"
       ],
       "value": 805904.52,
       "currency": "EUR",
@@ -2204,8 +1962,8 @@
       "buyerCountry": "GR",
       "cpv": [
         "32342400-6",
-        "72230000-6",
-        "34996000-5"
+        "34996000-5",
+        "72230000-6"
       ],
       "value": 619380,
       "currency": "EUR",
@@ -2226,9 +1984,9 @@
       "buyer": "ΠΕΡΙΦΕΡΕΙΑ ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "34996000-5",
+        "32342400-6",
         "72230000-6",
-        "32342400-6"
+        "34996000-5"
       ],
       "value": 929070,
       "currency": "EUR",
@@ -2244,8 +2002,8 @@
       "buyer": "ΥΠΟΥΡΓΕΙΟ ΕΘΝΙΚΗΣ ΑΜΥΝΑΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "72000000-5",
-        "34962210-3"
+        "34962210-3",
+        "72000000-5"
       ],
       "value": 976237.78,
       "currency": "EUR",
@@ -2278,14 +2036,14 @@
       "buyer": "ΗΔΙΚΑ Α.Ε (ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΑΚΥΒΕΡΝΗΣΗ - ΚΟΙΝΩΝΙΚΗ ΑΣΦΑΛΙΣΗ Α.Ε)",
       "buyerCountry": "GR",
       "cpv": [
-        "72000000-5",
-        "72318000-7",
-        "80533100-0",
+        "72224000-1",
+        "72262000-9",
         "79415200-8",
         "72221000-0",
         "72267100-0",
-        "72262000-9",
-        "72224000-1"
+        "72000000-5",
+        "72318000-7",
+        "80533100-0"
       ],
       "value": 5456000,
       "currency": "EUR",
@@ -2306,14 +2064,14 @@
       "buyer": "ΗΔΙΚΑ Α.Ε (ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΑΚΥΒΕΡΝΗΣΗ - ΚΟΙΝΩΝΙΚΗ ΑΣΦΑΛΙΣΗ Α.Ε)",
       "buyerCountry": "GR",
       "cpv": [
+        "79415200-8",
+        "72262000-9",
         "72224000-1",
-        "72267100-0",
-        "72221000-0",
-        "72000000-5",
         "80533100-0",
         "72318000-7",
-        "79415200-8",
-        "72262000-9"
+        "72221000-0",
+        "72267100-0",
+        "72000000-5"
       ],
       "value": 5456000,
       "currency": "EUR",
@@ -2351,15 +2109,15 @@
       "buyer": "ΥΠΟΥΡΓΕΙΟ ΠΑΙΔΕΙΑΣ, ΘΡΗΣΚΕΥΜΑΤΩΝ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
       "buyerCountry": "GR",
       "cpv": [
-        "72000000-5",
-        "79340000-9",
         "80000000-4",
-        "79950000-8",
         "72262000-9",
         "80533100-0",
         "71241000-9",
+        "79951000-5",
+        "79340000-9",
+        "72000000-5",
         "72212190-7",
-        "79951000-5"
+        "79950000-8"
       ],
       "value": 4000000,
       "currency": "EUR",
@@ -2380,15 +2138,15 @@
       "buyer": "ΥΠΟΥΡΓΕΙΟ ΠΑΙΔΕΙΑΣ, ΘΡΗΣΚΕΥΜΑΤΩΝ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
       "buyerCountry": "GR",
       "cpv": [
-        "79951000-5",
-        "72212190-7",
-        "80000000-4",
-        "71241000-9",
         "72000000-5",
+        "80533100-0",
         "72262000-9",
+        "71241000-9",
+        "72212190-7",
         "79340000-9",
         "79950000-8",
-        "80533100-0"
+        "79951000-5",
+        "80000000-4"
       ],
       "value": 4000000,
       "currency": "EUR",
@@ -2409,15 +2167,15 @@
       "buyer": "ΝΕΑ ΜΗΤΡΟΠΟΛΙΤΙΚΗ ΑΤΤΙΚΗ Α Ε   ΑΝΑΠΤΥΞΙΑΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΤΟΠΙΚΗΣ ΑΥΤΟΔΙΟΙΚΗΣΗΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "79341400-0",
-        "79950000-8",
         "79415200-8",
         "48000000-8",
         "72321000-1",
         "72254000-0",
-        "72212482-1",
         "72200000-7",
-        "79411000-8"
+        "79411000-8",
+        "79341400-0",
+        "79950000-8",
+        "72212482-1"
       ],
       "value": 1900000.01,
       "currency": "EUR",
@@ -2438,14 +2196,14 @@
       "buyer": "ΝΕΑ ΜΗΤΡΟΠΟΛΙΤΙΚΗ ΑΤΤΙΚΗ Α Ε   ΑΝΑΠΤΥΞΙΑΚΟΣ ΟΡΓΑΝΙΣΜΟΣ ΤΟΠΙΚΗΣ ΑΥΤΟΔΙΟΙΚΗΣΗΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "48000000-8",
-        "79411000-8",
         "79415200-8",
-        "72254000-0",
-        "79341400-0",
-        "72212482-1",
         "79950000-8",
+        "79411000-8",
+        "72254000-0",
         "72200000-7",
+        "72212482-1",
+        "79341400-0",
+        "48000000-8",
         "72321000-1"
       ],
       "value": 1900000.01,
@@ -2531,8 +2289,8 @@
       "buyer": "ΕΛΛΗΝΙΚΗ ΡΑΔΙΟΦΩΝΙΑ ΤΗΛΕΟΡΑΣΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ (Ε.Ρ.Τ. Α.Ε.)",
       "buyerCountry": "GR",
       "cpv": [
-        "72212517-6",
-        "72000000-5"
+        "72000000-5",
+        "72212517-6"
       ],
       "value": 744000,
       "currency": "EUR",
@@ -2553,8 +2311,8 @@
       "buyer": "ΕΘΝΙΚΗ ΑΡΧΗ ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ",
       "buyerCountry": "GR",
       "cpv": [
-        "72000000-5",
-        "80533100-0"
+        "80533100-0",
+        "72000000-5"
       ],
       "value": 2049224,
       "currency": "EUR",
@@ -2719,8 +2477,8 @@
       "buyerCountry": "GR",
       "cpv": [
         "72268000-1",
-        "31720000-9",
-        "32441100-7"
+        "32441100-7",
+        "31720000-9"
       ],
       "value": 561600,
       "currency": "EUR",
@@ -2742,8 +2500,8 @@
       "buyerCountry": "GR",
       "cpv": [
         "72268000-1",
-        "31720000-9",
-        "32441100-7"
+        "32441100-7",
+        "31720000-9"
       ],
       "value": 561600,
       "currency": "EUR",
@@ -2926,21 +2684,6 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/669452-2026"
     },
     {
-      "id": "TED-670211-2026",
-      "source": "TED",
-      "title": "Greece – Project management consultancy services – Υπηρεσίες Συμβούλου Τεχνικής Υποστήριξης για την υλοποίηση Πράξεων της Στρατηγικής ΒΑΑ",
-      "buyer": "ΔΗΜΟΣ ΗΡΑΚΛΕΙΟΥ ΚΡΗΤΗΣ ΟΡΓΑΝΙΣΜΟΣ ΤΟΠΙΚΗΣ ΑΥΤΟΔΙΟΙΚΗΣΗΣ",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "72224000"
-      ],
-      "value": 322550,
-      "currency": "EUR",
-      "deadline": null,
-      "publicationDate": "2026-09-29",
-      "url": "https://ted.europa.eu/en/notice/-/detail/670211-2026"
-    },
-    {
       "id": "TED-669906-2026",
       "source": "TED",
       "title": "Greece – Software package and information systems – Ανανέωση και αναβάθμιση συμβολαίων χρήσης και συντήρησης λογισμικών 2026",
@@ -2955,6 +2698,21 @@
       "deadline": null,
       "publicationDate": "2026-09-29",
       "url": "https://ted.europa.eu/en/notice/-/detail/669906-2026"
+    },
+    {
+      "id": "TED-670211-2026",
+      "source": "TED",
+      "title": "Greece – Project management consultancy services – Υπηρεσίες Συμβούλου Τεχνικής Υποστήριξης για την υλοποίηση Πράξεων της Στρατηγικής ΒΑΑ",
+      "buyer": "ΔΗΜΟΣ ΗΡΑΚΛΕΙΟΥ ΚΡΗΤΗΣ ΟΡΓΑΝΙΣΜΟΣ ΤΟΠΙΚΗΣ ΑΥΤΟΔΙΟΙΚΗΣΗΣ",
+      "buyerCountry": "GRC",
+      "cpv": [
+        "72224000"
+      ],
+      "value": 322550,
+      "currency": "EUR",
+      "deadline": null,
+      "publicationDate": "2026-09-29",
+      "url": "https://ted.europa.eu/en/notice/-/detail/670211-2026"
     },
     {
       "id": "TED-664853-2026",
@@ -2980,22 +2738,6 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/664853-2026"
     },
     {
-      "id": "TED-666502-2026",
-      "source": "TED",
-      "title": "Greece – Computer-related services – Παροχή υπηρεσιών ανάπτυξης και παραγωγικής λειτουργίας του Εθνικού σημείου επαφής για την ηλεκτρονική υγεία NCPeH",
-      "buyer": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΑΚΥΒΕΡΝΗΣΗ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ (ΗΔΙΚΑ) ΑΕ",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "72500000",
-        "48600000"
-      ],
-      "value": 786100,
-      "currency": "EUR",
-      "deadline": null,
-      "publicationDate": "2026-09-28",
-      "url": "https://ted.europa.eu/en/notice/-/detail/666502-2026"
-    },
-    {
       "id": "TED-664882-2026",
       "source": "TED",
       "title": "Greece – Advertising consultancy services – Παροχή υπηρεσιών Συμβούλου Δημοσιότητας για το Πρόγραμμα «Ανθρώπινο Δυναμικό και Κοινωνική Συνοχή»",
@@ -3017,6 +2759,22 @@
       "deadline": null,
       "publicationDate": "2026-09-28",
       "url": "https://ted.europa.eu/en/notice/-/detail/664882-2026"
+    },
+    {
+      "id": "TED-666502-2026",
+      "source": "TED",
+      "title": "Greece – Computer-related services – Παροχή υπηρεσιών ανάπτυξης και παραγωγικής λειτουργίας του Εθνικού σημείου επαφής για την ηλεκτρονική υγεία NCPeH",
+      "buyer": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΑΚΥΒΕΡΝΗΣΗ ΚΟΙΝΩΝΙΚΗΣ ΑΣΦΑΛΙΣΗΣ (ΗΔΙΚΑ) ΑΕ",
+      "buyerCountry": "GRC",
+      "cpv": [
+        "72500000",
+        "48600000"
+      ],
+      "value": 786100,
+      "currency": "EUR",
+      "deadline": null,
+      "publicationDate": "2026-09-28",
+      "url": "https://ted.europa.eu/en/notice/-/detail/666502-2026"
     },
     {
       "id": "TED-665245-2026",
@@ -3286,6 +3044,21 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/650369-2026"
     },
     {
+      "id": "TED-653178-2026",
+      "source": "TED",
+      "title": "Greece – Software development services – Παροχή Υπηρεσιών Ψηφιοποίησης, Ανάπτυξης Πληροφοριακών Συστημάτων & Υποστήριξης στην διοικητική λειτουργία του ΤΑΧΔΙΚ",
+      "buyer": "ΥΠΟΥΡΓΕΙΟ ΔΙΚΑΙΟΣΥΝΗΣ ΕΙΔΙΚΗ ΥΠΗΡΕΣΙΑ «Επιτελική Δομή ΕΣΠΑ ΥΔ»",
+      "buyerCountry": "GRC",
+      "cpv": [
+        "72262000"
+      ],
+      "value": 4112922.26,
+      "currency": "EUR",
+      "deadline": null,
+      "publicationDate": "2026-09-22",
+      "url": "https://ted.europa.eu/en/notice/-/detail/653178-2026"
+    },
+    {
       "id": "TED-651563-2026",
       "source": "TED",
       "title": "Greece – Database and operating software package – Δράσεις για τον ψηφιακό μετασχηματισμό του Δήμου Ωρωπού",
@@ -3318,21 +3091,6 @@
       "deadline": null,
       "publicationDate": "2026-09-22",
       "url": "https://ted.europa.eu/en/notice/-/detail/651563-2026"
-    },
-    {
-      "id": "TED-653178-2026",
-      "source": "TED",
-      "title": "Greece – Software development services – Παροχή Υπηρεσιών Ψηφιοποίησης, Ανάπτυξης Πληροφοριακών Συστημάτων & Υποστήριξης στην διοικητική λειτουργία του ΤΑΧΔΙΚ",
-      "buyer": "ΥΠΟΥΡΓΕΙΟ ΔΙΚΑΙΟΣΥΝΗΣ ΕΙΔΙΚΗ ΥΠΗΡΕΣΙΑ «Επιτελική Δομή ΕΣΠΑ ΥΔ»",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "72262000"
-      ],
-      "value": 4112922.26,
-      "currency": "EUR",
-      "deadline": null,
-      "publicationDate": "2026-09-22",
-      "url": "https://ted.europa.eu/en/notice/-/detail/653178-2026"
     },
     {
       "id": "TED-647524-2026",
@@ -3383,6 +3141,21 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/648712-2026"
     },
     {
+      "id": "TED-649926-2026",
+      "source": "TED",
+      "title": "Greece – Project management consultancy services – ΕΞΕΙΔΙΚΕΥΜΕΝΟΣ ΣΥΜΒΟΥΛΟΣ ΤΕΧΝΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ, ΣΥΝΤΟΝΙΣΜΟΥ ΚΑΙ ΠΑΡΑΚΟΛΟΥΘΗΣΗΣ ΤΩΝ ΔΡΑΣΕΩΝ ΨΗΦΙΑΚΟΥ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΥ ΤΟΥ ΔΗΜΟΥ ΑΘΗΝΑΙΩΝ",
+      "buyer": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ",
+      "buyerCountry": "GRC",
+      "cpv": [
+        "72224000"
+      ],
+      "value": 295000,
+      "currency": "EUR",
+      "deadline": null,
+      "publicationDate": "2026-09-21",
+      "url": "https://ted.europa.eu/en/notice/-/detail/649926-2026"
+    },
+    {
       "id": "TED-646573-2026",
       "source": "TED",
       "title": "Greece – Business and management consultancy and related services – Ανάπτυξη επιστημονικών εργαλείων",
@@ -3397,21 +3170,6 @@
       "deadline": null,
       "publicationDate": "2026-09-21",
       "url": "https://ted.europa.eu/en/notice/-/detail/646573-2026"
-    },
-    {
-      "id": "TED-649926-2026",
-      "source": "TED",
-      "title": "Greece – Project management consultancy services – ΕΞΕΙΔΙΚΕΥΜΕΝΟΣ ΣΥΜΒΟΥΛΟΣ ΤΕΧΝΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ, ΣΥΝΤΟΝΙΣΜΟΥ ΚΑΙ ΠΑΡΑΚΟΛΟΥΘΗΣΗΣ ΤΩΝ ΔΡΑΣΕΩΝ ΨΗΦΙΑΚΟΥ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΥ ΤΟΥ ΔΗΜΟΥ ΑΘΗΝΑΙΩΝ",
-      "buyer": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "72224000"
-      ],
-      "value": 295000,
-      "currency": "EUR",
-      "deadline": null,
-      "publicationDate": "2026-09-21",
-      "url": "https://ted.europa.eu/en/notice/-/detail/649926-2026"
     },
     {
       "id": "TED-645842-2026",
@@ -3640,23 +3398,6 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/629078-2026"
     },
     {
-      "id": "TED-624510-2026",
-      "source": "TED",
-      "title": "Greece – Network equipment – Προμήθεια Τείχους Προστασίας, Αντιιικού Λογισμικού και Παρεμφερών Συστημάτων",
-      "buyer": "ΕΘΝΙΚΗ ΕΠΙΤΡΟΠΗ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΚΑΙ ΤΑΧΥΔΡΟΜΕΙΩΝ",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "32420000",
-        "48732000",
-        "72253200"
-      ],
-      "value": 350000,
-      "currency": "EUR",
-      "deadline": null,
-      "publicationDate": "2026-09-10",
-      "url": "https://ted.europa.eu/en/notice/-/detail/624510-2026"
-    },
-    {
       "id": "TED-624789-2026",
       "source": "TED",
       "title": "Greece – Control, safety or signalling equipment for port installations – «Προμήθεια λογισμικού για την Ανάπτυξη Εφαρμογών Έξυπνων Πόλεων και Τεχνολογιών για το Διαδίκτυο των Αντικειμένων (IoT) του Δήμου Παλλήνης»",
@@ -3672,6 +3413,23 @@
       "deadline": null,
       "publicationDate": "2026-09-10",
       "url": "https://ted.europa.eu/en/notice/-/detail/624789-2026"
+    },
+    {
+      "id": "TED-624510-2026",
+      "source": "TED",
+      "title": "Greece – Network equipment – Προμήθεια Τείχους Προστασίας, Αντιιικού Λογισμικού και Παρεμφερών Συστημάτων",
+      "buyer": "ΕΘΝΙΚΗ ΕΠΙΤΡΟΠΗ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΚΑΙ ΤΑΧΥΔΡΟΜΕΙΩΝ",
+      "buyerCountry": "GRC",
+      "cpv": [
+        "32420000",
+        "48732000",
+        "72253200"
+      ],
+      "value": 350000,
+      "currency": "EUR",
+      "deadline": null,
+      "publicationDate": "2026-09-10",
+      "url": "https://ted.europa.eu/en/notice/-/detail/624510-2026"
     },
     {
       "id": "TED-624158-2026",
@@ -4014,22 +3772,6 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/608973-2026"
     },
     {
-      "id": "TED-606065-2026",
-      "source": "TED",
-      "title": "Greece – System management software development services – \"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
-      "buyer": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "72212781",
-        "72267000"
-      ],
-      "value": 69501232.79,
-      "currency": "EUR",
-      "deadline": null,
-      "publicationDate": "2026-09-03",
-      "url": "https://ted.europa.eu/en/notice/-/detail/606065-2026"
-    },
-    {
       "id": "TED-607462-2026",
       "source": "TED",
       "title": "Greece – Project management consultancy services – Παροχή Υπηρεσιών Διαχειριστικής, Επιχειρησιακής και Τεχνολογικής Υποστήριξης για τα Έργα Ψηφιοποίηση αρχείων πολεοδομικής πληροφορίας - Ενιαίος Ψηφιακός Χάρτης – Έξυπνες Γέφυρες",
@@ -4044,6 +3786,22 @@
       "deadline": null,
       "publicationDate": "2026-09-03",
       "url": "https://ted.europa.eu/en/notice/-/detail/607462-2026"
+    },
+    {
+      "id": "TED-606065-2026",
+      "source": "TED",
+      "title": "Greece – System management software development services – \"ΑΝΑΠΤΥΞΗ ΝΕΟΥ ΕΝΟΠΟΙΗΜΕΝΟΥ ΟΛΟΚΛΗΡΩΜΕΝΟΥ ΠΛΗΡΟΦΟΡΙΑΚΟΥ ΣΥΣΤΗΜΑΤΟΣ ΦΟΡΟΛΟΓΙΑΣ ΤΗΣ Α.Α.Δ.Ε.\"",
+      "buyer": "ΑΝΕΞΑΡΤΗΤΗ ΑΡΧΗ ΔΗΜΟΣΙΩΝ ΕΣΟΔΩΝ",
+      "buyerCountry": "GRC",
+      "cpv": [
+        "72212781",
+        "72267000"
+      ],
+      "value": 69501232.79,
+      "currency": "EUR",
+      "deadline": null,
+      "publicationDate": "2026-09-03",
+      "url": "https://ted.europa.eu/en/notice/-/detail/606065-2026"
     },
     {
       "id": "TED-608089-2026",
@@ -4091,6 +3849,21 @@
       "url": "https://ted.europa.eu/en/notice/-/detail/608915-2026"
     },
     {
+      "id": "TED-606369-2026",
+      "source": "TED",
+      "title": "Greece – IT services: consulting, software development, Internet and support – Παροχή Υπηρεσιών Συμβούλου Τεχνικής υποστήριξης στο πλαίσιο του έργου: \"Πληροφοριακό Σύστημα για την οριοθέτηση των Yδατορεμάτων\"",
+      "buyer": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
+      "buyerCountry": "GRC",
+      "cpv": [
+        "72000000"
+      ],
+      "value": 1226260,
+      "currency": "EUR",
+      "deadline": null,
+      "publicationDate": "2026-09-03",
+      "url": "https://ted.europa.eu/en/notice/-/detail/606369-2026"
+    },
+    {
       "id": "TED-606846-2026",
       "source": "TED",
       "title": "Greece – Project management consultancy services – Μηχανισμός Υποστήριξης για την αποτελεσματική υλοποίηση για τα Έργα α) Έξυπνες Γέφυρες Περιφερειών, β) Ανάπτυξη Αυτόνομων Έξυπνων Τηλεδιαχειριζόμενων Δικτύων Φωτισμού LED στους Οδικούς Άξονες της Χώρας, γ) Αναβάθμιση των Υποδομών Ασφάλειας των 10 μεγαλύτερων σιδηροδρομικών Σηράγγων του ΟΣΕ με χρήση έξυπνων ΙοΤ συστημάτων, δ) Κατασκευή έξυπνων πρότυπων διαβάσεων σχολείων",
@@ -4123,21 +3896,6 @@
       "deadline": null,
       "publicationDate": "2026-09-03",
       "url": "https://ted.europa.eu/en/notice/-/detail/608549-2026"
-    },
-    {
-      "id": "TED-606369-2026",
-      "source": "TED",
-      "title": "Greece – IT services: consulting, software development, Internet and support – Παροχή Υπηρεσιών Συμβούλου Τεχνικής υποστήριξης στο πλαίσιο του έργου: \"Πληροφοριακό Σύστημα για την οριοθέτηση των Yδατορεμάτων\"",
-      "buyer": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
-      "buyerCountry": "GRC",
-      "cpv": [
-        "72000000"
-      ],
-      "value": 1226260,
-      "currency": "EUR",
-      "deadline": null,
-      "publicationDate": "2026-09-03",
-      "url": "https://ted.europa.eu/en/notice/-/detail/606369-2026"
     },
     {
       "id": "TED-602844-2026",
